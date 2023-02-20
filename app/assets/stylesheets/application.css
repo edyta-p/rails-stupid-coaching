@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+ .container {
+  padding: 10px 10px;
+ }
+
+ .form-control {
+  width: 400px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+ }
+
+ .btn {
+  background-color: darkblue;
+  color: white;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  border-radius: 5px;
+ }
+
+ .flex {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .recto {
+  height: auto;
+  width: 600px;
+  background-color: rgb(238, 235, 235);
+  display: flex;
+  border-radius: 8px;
+  margin: 16px;
+ }
+
+ .deco {
+  height: auto;
+  width: 20px;
+  background-color: yellowgreen;
+  margin: 0px 8px 0px 0px;
+ }
